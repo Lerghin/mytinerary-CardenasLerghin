@@ -1,0 +1,143 @@
+.container-fluid {
+    padding: 10px;
+  }
+  img{
+    border-radius: 10px;
+  }
+
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .navbar:hover {
+    border: 5px solid blueviolet;
+  }
+
+.img-fluid{
+  max-width: 100px;
+
+
+}
+.mytinery{
+font-size: X-large;
+font-weight: bold;
+text-decoration: none;
+color:black
+
+
+}
+  .logo-container {
+    display: flex;
+    align-items: center;
+      overflow: hidden;
+white-space: nowrap;
+
+  }
+  
+  .logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .btn-primary{
+    display:flex;
+    flex-wrap: wrap;
+    width: calc(50% - 20px);
+    font-weight: bold;
+    font-size: calc(1em + 1vw) ;
+    overflow: hidden;
+white-space: nowrap;
+  
+  }
+ .nav-link{
+    font-weight: bold;
+    color:black;
+   
+  }
+  h1 {
+  
+    margin: 20px;
+    font-weight: bold;
+    font-size: calc(1em + 1vw) 
+  }
+  
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+
+  
+  }
+  
+  .nav-item {
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-nav {
+      margin-top: 10px;
+      flex-direction: column;
+    }
+  
+    .nav-item {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    .btn-primary{
+        width:100px;
+        font-weight: bold;
+      }
+  }
+
+  @media (max-width: 328px) {
+
+    .navbar {
+      display:flex;
+      flex-direction: column;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1px;
+      width: calc(50% - 20px);
+    }
+  
+    .navbar-nav {
+      display:flex;
+      margin-top: 10px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 1px;
+      width: calc(50% - 20px);
+    }
+  
+    .nav-item {
+      display:flex;
+      flex-direction: column;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1px;
+      margin-bottom: 10px;
+      width: calc(50% - 20px);
+    }
+
+    
+.btn-primary {
+  display:flex;
+
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 1px;
+  width: calc(50% - 20px);
+}
+  }
+
+

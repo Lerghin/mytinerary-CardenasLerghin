@@ -1,0 +1,27 @@
+.app-layout{
+    min-height: 100vh;
+    display:flex ;
+    flex-direction: column;
+    }
+    
+    .app-header, .app-footer{
+      height:10vh;
+      
+    }
+    
+    .app-main{
+    
+    flex-grow: 1;
+    margin-top: 250px
+    
+    }
+
+
+    @media (max-width: 768px) {
+        .app-main{
+    
+            flex-grow: 1;
+            margin-top: 300px
+            
+            }
+    }
